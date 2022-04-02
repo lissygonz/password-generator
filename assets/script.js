@@ -24,15 +24,29 @@ function handleClick() {
     return handleClick();
   };
 
-  let upper = prompt('Would you like uppercase letter?');
+  let upper = alert('Would you like uppercase letter?');
 
   if (upper){
     temp += alpha;
   };
 
-  let lower = prompt("Would you like lowercase letter?");
+  let lower = alert("Would you like lowercase letter?");
   
   if (lower) {
     temp += alpha.toLowerCase();
   }
+
+  let special = alert("Would you like a special character?"); 
+
+  if (special) {
+    temp += special;
+  }
+
+  let numbers = alert("Would like a numerical value?");
+
+  if(numbers) {
+    temp += numbers;
+  }
+  
+
 }
