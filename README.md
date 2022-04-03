@@ -10,7 +10,10 @@ Generates random password to a specific criteria
 *JAVASCRIPT
 
 ## Mockup
+<img width="912" alt="Screen Shot 2022-04-03 at 7 34 40 PM" src="https://user-images.githubusercontent.com/99147859/161453796-7a0dc5e0-537c-4bcf-9859-07caeba68c93.png">
 
+
+    
 
 
 
