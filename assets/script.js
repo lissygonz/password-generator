@@ -1,4 +1,4 @@
-//the charateristics of the password
+//the charateristics of the passwordgi
 const alpha = 'ABCDEFGHIJKLMOPQRSTUVWXYZ';
 const numbers = '0123456789';
 const special = '@#!%-$+'
