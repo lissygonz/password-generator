@@ -22,6 +22,7 @@ Generates random password to a specific criteria
 
 https://lissygonz.github.io/password-generator/
 
+https://github.com/lissygonz/password-generator
 ## Contribution
 
 Lisette Gonzalez
