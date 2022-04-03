@@ -5,9 +5,9 @@ Generates random password to a specific criteria
 
 ## Built with
 
-HTML
-CSS
-JAVASCRIPT
+*HTML
+*CSS
+*JAVASCRIPT
 
 ## Mockup
 
@@ -17,7 +17,7 @@ JAVASCRIPT
 
 ## Website
 
-
+https://lissygonz.github.io/password-generator/
 
 ## Contribution
 

@@ -1,3 +1,4 @@
+//the charateristics of the password
 const alpha = 'ABCDEFGHIJKLMOPQRSTUVWXYZ';
 const numbers = '0123456789';
 const special = '@#!%-$+'
@@ -8,7 +9,9 @@ let password = '';
 
 document.querySelector('button').addEventListener('click', handleClick);
 
+//the reaction to the click and making sure the criteria of the password
 function handleClick() {
+  temp = ''
   len = prompt("How long do you want your password to be?(8-128)");
   
   if (len < 8 ) {
@@ -24,17 +27,17 @@ function handleClick() {
     return handleClick();
   };
 
-  let upper = alert('Would you like uppercase letter?');
+  let upper = confirm('Would you like uppercase letter?');
 
   if (upper){
     temp += alpha;
   };
 
-  let lower = alert("Would you like lowercase letter?");
+  let lower = confirm("Would you like lowercase letter?");
   
   if (lower) {
     temp += alpha.toLowerCase();
-  }
+  };
 
   let special = alert("Would you like a special character?"); 
 
@@ -47,6 +50,16 @@ function handleClick() {
   if(numbers) {
     temp += numbers;
   }
+
+
   
+//gets the random password in the console log
+ 
+  for (let i = 0; i < len; i++) {
+    let generate = temp[Math.floor(Math.random()*temp.length)];
+    console.log(generate);
+    
+ }
+
 
 }
